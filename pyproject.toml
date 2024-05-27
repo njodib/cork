@@ -16,11 +16,11 @@ gunicorn = "^20.1.0"
 celery = {extras = ["redis"], version = "^5.2.7"}
 
 [tool.poetry.group.dev.dependencies]
-autopep8 = "^2.1.1"
-pylint-django = "^2.5.3"
-pytest-django = "^4.5.2"
-python-dotenv = "^1.0.1"
-isort = "^5.10.1"
+autopep8 = "^2.1.1" #pep8 pyton style guide
+pylint-django = "^2.5.3" #python linter with django capabilities
+pytest-django = "^4.5.2" #python tester for django
+python-dotenv = "^1.0.1" #environments change in testing / production
+isort = "^5.10.1" #sort imports
 
 [build-system]
 requires = ["poetry-core"]
