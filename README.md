@@ -22,13 +22,13 @@ Django basic framework
 Substitute cork with project name.
 
 Setup a virtual environment to manage dependencies.
-'''
+'''sh
 mkdir ~/.venvs/cork_venv
 python3 -m venv ~/.venvs/cork_venv
 source .venvs/cork_venv/bin/activate
 
 Make project folder and create Django project
-'''
+'''sh
 mkdir cork
 cd cork
 python3 -m pip install Django
