@@ -1,4 +1,4 @@
-# CORK -- Fully-tooled Django
+# CORK
 
 Django basic framework
 
