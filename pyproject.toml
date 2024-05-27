@@ -1,3 +1,12 @@
+[tool.poetry]
+name = "CORK"
+version = "0.1"
+description = "Django Setup"
+authors = ["N. Jodi Basterash"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_dx"}]
+
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^5.0.6"
