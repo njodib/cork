@@ -2,6 +2,7 @@
 
 Supercharge your Django Development Experience with these tools and concepts ðŸš€
 
+- [venv](#venv)
 - [pyenv](#pyenv)
 - [poetry](#poetry)
 - [pylint](#pylint)
@@ -16,6 +17,23 @@ Supercharge your Django Development Experience with these tools and concepts ðŸš
 - [docker](#docker)
 - [dependabot](#dependabot)
 - [github-actions](#github-actions)
+
+## Virtual Environment and Django
+Substitute cork with project name.
+
+Setup a virtual environment to manage dependencies.
+'''
+mkdir ~/.venvs/cork_venv
+python3 -m venv ~/.venvs/cork_venv
+source .venvs/cork_venv/bin/activate
+
+Make project folder and create Django project
+'''
+mkdir cork
+cd cork
+python3 -m pip install Django
+django-admin startproject cork
+'''
 
 ## Pyenv
 
