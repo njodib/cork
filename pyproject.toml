@@ -18,7 +18,7 @@ celery = {extras = ["redis"], version = "^5.2.7"}
 [tool.poetry.group.dev.dependencies]
 autopep8 = "^1.7.0"
 pylint-django = "^2.5.3"
-pytest-django = "^4.5.2"
+pytest-django = "^4.8.0"
 python-dotenv = "^0.21.0"
 isort = "^5.10.1"
 
