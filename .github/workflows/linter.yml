@@ -1,0 +1,23 @@
+name: linter
+
+on:
+  push:
+    paths-ignore:
+      - '**/README.md'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python - --version 1.2.0
+          echo "PATH=${HOME}/.local/bin:${PATH}" >> $GITHUB_ENV
+      - uses: actions/setup-python@v4
+        with:
+          cache: 'poetry'
+      - run: poetry install
+      - name: Run Tests
+        run: poetry run pylint **/*.py
