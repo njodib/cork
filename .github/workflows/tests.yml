@@ -30,7 +30,7 @@ jobs:
         run: |
           curl -sSL https://install.python-poetry.org | python - --version 1.8.3
           echo "PATH=${HOME}/.local/bin:${PATH}" >> $GITHUB_ENV
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           cache: 'poetry'
       - run: poetry install
