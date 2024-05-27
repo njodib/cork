@@ -1,6 +1,6 @@
-# django_dx
+# CORK
 
-Supercharge your Django Development Experience with these tools and concepts 🚀
+Django basic framework
 
 - [venv](#venv)
 - [pyenv](#pyenv)
