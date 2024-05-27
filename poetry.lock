@@ -58,18 +58,18 @@ files = [
 
 [[package]]
 name = "autopep8"
-version = "1.7.0"
+version = "2.1.1"
 description = "A tool that automatically formats Python code to conform to the PEP 8 style guide"
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 files = [
-    {file = "autopep8-1.7.0-py2.py3-none-any.whl", hash = "sha256:6f09e90a2be784317e84dc1add17ebfc7abe3924239957a37e5040e27d812087"},
-    {file = "autopep8-1.7.0.tar.gz", hash = "sha256:ca9b1a83e53a7fad65d731dc7a2a2d50aa48f43850407c59f6a1a306c4201142"},
+    {file = "autopep8-2.1.1-py2.py3-none-any.whl", hash = "sha256:57c1026ee3ee40f57c5b93073b705f8e30aa52411fca33306d730274d2882bba"},
+    {file = "autopep8-2.1.1.tar.gz", hash = "sha256:bc9b267f14d358a9af574b95e95a661681c60a275ffce419ba5fb4eae9920bcc"},
 ]
 
 [package.dependencies]
-pycodestyle = ">=2.9.1"
-toml = "*"
+pycodestyle = ">=2.11.0"
+tomli = {version = "*", markers = "python_version < \"3.11\""}
 
 [[package]]
 name = "billiard"
@@ -687,17 +687,6 @@ dev = ["build", "hatch"]
 doc = ["sphinx"]
 
 [[package]]
-name = "toml"
-version = "0.10.2"
-description = "Python Library for Tom's Obvious, Minimal Language"
-optional = false
-python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
-files = [
-    {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
-    {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
-]
-
-[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -766,4 +755,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f53d4b11ecfbdc0ce1956be84cda9c7a5a4542a8b86b915079307b3426451740"
+content-hash = "8f8be5b39753453bfddcdbe94c54054600a7e0fd6aa8f3fda5aa5dea1a2de489"
