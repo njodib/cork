@@ -18,6 +18,8 @@ Django basic framework
 - [dependabot](#dependabot)
 - [github-actions](#github-actions)
 
+NOTE: This README's structure is accurate, but the library versions listed may be out-of-date. Check the repository for the most up-to-date version.
+
 ## Virtual Environment and Django
 Substitute cork with project name.
 
