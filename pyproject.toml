@@ -16,7 +16,7 @@ gunicorn = "^22.0.0"
 celery = {extras = ["redis"], version = "^5.2.7"}
 
 [tool.poetry.group.dev.dependencies]
-autopep8 = "^2.3.0" #pep8 pyton style guide
+autopep8 = "^2.3.1" #pep8 pyton style guide
 pylint-django = "^2.5.3" #python linter with django capabilities
 pytest-django = "^4.5.2" #python tester for django
 python-dotenv = "^1.0.1" #environments change in testing / production
