@@ -11,7 +11,7 @@ packages = [{include = "django_dx"}]
 python = "^3.10"
 Django = "^5.1"
 python-dotenv = "^1.0.1"
-psycopg2-binary = "^2.9.9"
+psycopg2-binary = "^2.9.10"
 gunicorn = "^22.0.0"
 celery = {extras = ["redis"], version = "^5.2.7"}
 
